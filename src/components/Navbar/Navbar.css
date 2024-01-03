@@ -1,0 +1,28 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+
+.Navbar img {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+@media (min-width: 758px) {
+  .Navbar {
+    margin-top: 3.4rem;
+  }
+
+  .Navbar img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1110px;
+  }
+}

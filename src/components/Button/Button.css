@@ -1,0 +1,27 @@
+.Button {
+  color: var(--text-color-cream);
+  background-color: var(--bg-black);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2.8rem;
+  border-radius: 28px;
+  padding: 0.8rem 2.8rem;
+}
+
+.Button:hover {
+  background-color: var(--bg-purple);
+}
+
+@media (min-width: 758px) {
+  .Button {
+    font-size: 1.6rem;
+    padding: 1.4rem 4.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1110px;
+  }
+}

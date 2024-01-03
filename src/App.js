@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import Container from "./components/Container/Container";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
     <Container>
-      <h1>Hello World</h1>
+      <Navbar />
     </Container>
   );
 };
