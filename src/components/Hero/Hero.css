@@ -1,0 +1,49 @@
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+h1 {
+  color: var(--text-color-black);
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: var(--text-color-grey);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+@media (min-width: 758px) {
+  .Hero {
+    margin-top: 6.4rem;
+  }
+
+  h1 {
+    font-size: 4.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 5.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  p {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
